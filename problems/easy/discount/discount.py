@@ -3,5 +3,6 @@
 #  d = percentage discount
 
 def getdiscountedPS(p,d):
-
-    return 0
+    pd = p * d/100
+    pd = p - pd
+    return pd
